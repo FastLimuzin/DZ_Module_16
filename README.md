@@ -1,22 +1,23 @@
-# Django Homework - Module 16
+# Домашняя работа - Модуль 16 (Django)
 
 ## Задание 1
-- Приложение `users` с моделью `User`.
+- Создано приложение `users` с моделью `User`.
+- Подключена база MS SQL Server.
 
 ## Задание 2
-- Библиотека `Pillow`.
-- Приложение `posts` с моделями `Post` и `Comment`.
+- Установлена библиотека `Pillow`.
+- Создано приложение `posts` с моделями `Post` и `Comment`.
 - Настроены `STATIC` и `MEDIA`.
-- FBV: `post_list`, `post_detail`.
+- Добавлены функции `post_list` и `post_detail` с шаблонами.
 
 ## Установка
-1. Клонируйте: `git clone <your-repo-link>`
-2. Создайте venv: `python -m venv venv`
+1. Склонируйте репозиторий: `git clone <your-repo-link>`
+2. Создайте виртуальное окружение: `python -m venv venv`
 3. Активируйте: `venv\Scripts\activate` (Windows)
-4. Установите: `pip install -r requirements.txt`
-5. Установите `ODBC Driver 18 for SQL Server`: https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server
+4. Установите зависимости: `pip install -r requirements.txt`
+5. Установите драйвер: [ODBC Driver 18 for SQL Server](https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server)
 6. Скопируйте `.env_sample` в `.env` и настройте параметры базы.
 7. Создайте базу в MS SQL Server: `CREATE DATABASE your_db_name;`
-8. Миграции: `python manage.py migrate`
-9. Суперпользователь: `python manage.py createsuperuser`
-10. Запуск: `python manage.py runserver`ge.py runserver`
+8. Примените миграции: `python manage.py migrate`
+9. Создайте суперпользователя: `python manage.py createsuperuser`
+10. Запустите сервер: `python manage.py runserver`py runserver`
