@@ -5,10 +5,10 @@
 - Подключена база MS SQL Server.
 
 ## Задание 2
-- Установлена библиотека `Pillow`.
+- Установлена библиотека `Pillow` для работы с изображениями.
 - Создано приложение `posts` с моделями `Post` и `Comment`.
 - Настроены `STATIC` и `MEDIA`.
-- Добавлены функции `post_list` и `post_detail` с шаблонами.
+- Добавлены функции `post_list` и `post_detail` с шаблонами на русском языке.
 
 ## Установка
 1. Склонируйте репозиторий: `git clone <your-repo-link>`
@@ -20,4 +20,8 @@
 7. Создайте базу в MS SQL Server: `CREATE DATABASE your_db_name;`
 8. Примените миграции: `python manage.py migrate`
 9. Создайте суперпользователя: `python manage.py createsuperuser`
-10. Запустите сервер: `python manage.py runserver`py runserver`
+10. Запустите сервер: `python manage.py runserver`
+
+## Использование
+- Главная страница: `http://127.0.0.1:8000/` — список постов.
+- Админка: `http://127.0.0.1:8000/admin/` — управление пользователями и постами.n manage.py runserver`py runserver`
