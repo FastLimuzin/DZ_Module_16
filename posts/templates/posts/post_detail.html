@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+    {% if post.image %}
+        <img src="{{ post.image.url }}" alt="{{ post.title }}" width="300">
+    {% endif %}
+    <h3>Комментарии</h3>
+    {% for comment in post.comments.all %}
+        <p>{{ comment.text }}</p>
+    {% empty %}
+        <p>Пока нет комментариев.</p>
+    {% endfor %}
+</body>
+</html>

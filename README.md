@@ -1,9 +1,13 @@
-# Django Homework - Module 16-1
+# Django Homework - Module 16
 
 ## Задание 1
-- Создан проект с приложением `users`.
-- Модель `User` добавлена в админку.
-- Подключение к MS SQL Server.
+- Приложение `users` с моделью `User`.
+
+## Задание 2
+- Библиотека `Pillow`.
+- Приложение `posts` с моделями `Post` и `Comment`.
+- Настроены `STATIC` и `MEDIA`.
+- FBV: `post_list`, `post_detail`.
 
 ## Установка
 1. Клонируйте: `git clone <your-repo-link>`
@@ -15,4 +19,4 @@
 7. Создайте базу в MS SQL Server: `CREATE DATABASE your_db_name;`
 8. Миграции: `python manage.py migrate`
 9. Суперпользователь: `python manage.py createsuperuser`
-10. Запуск: `python manage.py runserver`
+10. Запуск: `python manage.py runserver`ge.py runserver`
