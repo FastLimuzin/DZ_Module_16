@@ -10,6 +10,11 @@
 - Настроены `STATIC` и `MEDIA`.
 - Добавлены функции `post_list` и `post_detail` с шаблонами на русском языке.
 
+## Задание 3
+- Добавлены CRUD-функции для `Post`: создание, чтение, обновление, удаление.
+- Добавлены стили в `static/css/style.css`.
+- Настроены URL-ы и templatetags для форматирования даты.
+
 ## Установка
 1. Склонируйте репозиторий: `git clone https://github.com/FastLimuzin/DZ_Module_16.git`
 2. Создайте виртуальное окружение: `python -m venv venv`
